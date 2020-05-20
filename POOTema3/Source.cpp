@@ -43,12 +43,14 @@ int main() {
 		v.addStock(temp_car, nou);
 	}
 
-	cout << endl << endl << "############## Vanzare - Masini in ordine##############" << endl;
+	cout << endl << endl << "############## Vanzare Masini in ordine ##############" << endl;
+	cout << "Masini in stoc: " << v.getStockCars() << endl<<endl;
 	for (int i = 0; i < cars.size(); i++) {
 
 		Car* temp_car = cars[i];
 		float sell_price = (v -= *temp_car);
 		cout << "Price for a " << temp_car->getCarModel()<<" with Id : " << temp_car->getSerie()<<" " << " is " << sell_price << endl;
 	}
+	cout << endl<< "Masini ramase in stoc: " << v.getStockCars() << endl;
 	return 0;
 }
