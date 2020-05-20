@@ -1,6 +1,6 @@
 BU789545 Rosu-Violet 78400 10
 
-4
+5
 
 Mini
 MU55513 Rosu-Violet 78 0
@@ -15,5 +15,9 @@ CT7845D Rosu-Violet 1124 2
 1
 
 Compacta
+TL78455 Rosu-Violet 811024 100
+0
+
+Junk
 TL78455 Rosu-Violet 811024 100
 0
